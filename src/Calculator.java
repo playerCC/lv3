@@ -107,7 +107,7 @@ public class Calculator {
         return reverseStack;
     }
 
-    //此方法用于判断对应字符是不是操作符，其中case的数字是对应的ASCII码。
+    //此方法用于判断对应字符是不是操作符，是则返回true。
     public static boolean isCaoZuoFu(char chars) {
         return chars == 40 || chars == 41 || chars == 42 || chars == 43 || chars == 45 || chars == 47;
     }
